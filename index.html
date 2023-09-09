@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock-Evaluation</title>
+    <style>
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    border: 2px solid black;
+    height: 830px;
+    width: 1670px;
+    margin: auto;
+}
+.grandfather{
+    border: 2px dotted black;
+    height: 810px;
+    width: 1660px;
+    margin: auto;
+    margin-top: 8px;
+    margin-left: 4px;
+    display: flex;
+}
+.father{
+    border: 2px dotted black;
+    height: 770px;
+    width: 810px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Uncle{
+    border: 2px dotted black;
+    height: 770px;
+    width: 830px;
+    margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 4px;
+}
+.person-1{
+ border: 2px dotted black;
+ height: 700px;
+ width:480px ;
+ /* margin: auto; */
+ margin-left: 20px;
+ margin-top: 20px;
+ display: flex;
+ 
+}
+.child-1{
+border: 1px solid rgb(11, 11, 11);
+height: 600px;
+width: 100px;
+margin-top: 40px;
+margin-left: 20px;
+}
+.one{
+    height: 70px;
+    width: 50px;
+    border: 2px dotted black;
+margin-top: 10px;
+margin-left: 20px;
+}
+.one>p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+/* second-part */
+p{
+    text-align: center;
+}
+
+.u-person-1{
+height: 80px;
+width: 740px;
+margin-top: 10px;
+margin-left: 19px;
+border: 2px dotted black;
+}
+
+.u-person-2{
+height: 540px;
+width: 740px;
+margin-top: 10px;
+margin-left: 19px;
+border: 2px dotted black;
+}
+
+.u-person-3{
+height: 80px;
+width: 740px;
+margin-top: 10px;
+margin-left: 19px;
+border: 2px dotted black;
+}
+.u-child-1{
+margin: auto;
+height: 80px;
+width: 670px;
+margin-top: 10px;
+/* margin-left: 15px; */
+border: 1px solid black;
+}
+
+.u-child-2{
+margin: auto;
+height: 310px;
+width: 670px;
+margin-top: 10px;
+/* margin-left: 10px; */
+border: 1px solid black;
+padding: 20px;
+}
+
+.u-one ,.u-one-2, .u-one-3{
+    border: 1px dotted black;
+    width: 610px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 8px;
+    /* margin: auto; */
+}
+
+.u-one{
+    background-color: orange;
+}
+
+
+.u-one-2{
+    background-color: white;
+}
+
+.u-one-3{
+    background-color: rgb(32, 97, 2);
+}
+.para{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+/* .u-one:nth-child(1){
+    background-color: orange;
+} */
+
+
+
+    </style>
+</head>
+<body>
+<div class="main">
+<div class="grandfather">
+grandfather
+    <div class="father">
+        father
+<div class="person-1">
+person-1
+
+<div class="child-1">
+    child-1
+</div>
+<div class="child-1">
+    child-2
+</div>
+<div class="child-1">
+    child-3
+
+    <div class="one">
+<p>1</p>
+    </div>
+    <div class="one">
+<p>2</p>
+    </div>
+    <div class="one">
+<p>3</p>
+    </div>
+</div>
+
+</div>
+
+    </div>
+
+
+<!-- second part -->
+
+
+    <div class="Uncle">
+<p>uncle</p>
+<div class="u-person-1">
+   <p>person-1</p> 
+</div>
+
+
+
+<div class="u-person-2">
+    <p>person-2</p> 
+
+<div class="u-child-1">
+    <p>child-1</p>
+</div>
+<div class="u-child-2">
+    <p>child-2</p>
+
+<div class="u-one">
+    <p class="para">1</p>
+</div>
+<div class="u-one-2">
+    <p class="para">2</p>
+</div>
+<div class="u-one-3">
+    <p class="para">3</p>
+</div>
+
+</div>
+<div class="u-child-1">
+    <p>child-3</p>
+</div>
+</div>
+
+<div class="u-person-3">
+    <p>person-3</p> 
+</div>
+
+
+    </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
